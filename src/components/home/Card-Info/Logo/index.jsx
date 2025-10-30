@@ -8,7 +8,7 @@ const Logo = ({ text }) => {
         className="w-20 h-20 object-contain"
       />
       <p className="text-sm text-gray-700 mt-2">
-        This section can display a brand or card logo.
+        Bagian ini menampilkan logo utama atau simbol identitas dari aplikasi.
       </p>
     </div>
   );
