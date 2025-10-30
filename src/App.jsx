@@ -1,21 +1,17 @@
-import React from "react";
-import HelloWorld from "./HelloWorld";
+import Footer from './components/footer';
+import Header from './components/header';
+import Home from './components/home';
 
 const App = () => {
-  let hello = "Hello World";
   return (
-    <>
-      <div className="text-[50px] bg-blue-500 m-10 p-10 font-serif">
-        {hello}
+    <div className="max-h-screen bg-gray-100 flex justify-center items-center p-4 sm:p-8">
+      <div className="w-full max-w-screen bg-white shadow-2xl rounded-xl p-8 space-y-8">
+        <Header text="This is a Header component" />
+        <Home text="This is a Home component" />
+        <Footer text="This is a Footer component" />
       </div>
-      <HelloWorld text="This is a child component 1"/>
-      <HelloWorld text="This is a child component 2"/>
-      <HelloWorld text="This is a child component 3"/>
-    </>
+    </div>
   );
 };
-
-
-
 
 export default App;
