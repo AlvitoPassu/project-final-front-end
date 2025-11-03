@@ -6,7 +6,7 @@ import Gen4 from "./gen 4";
 
 const Generations = () => {
   return (
-    <div className="p-8 bg-gray-50">
+    <div className="p-8 bg-gray-50 rounded-lg shadow-md">
       <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
         Pokémon Generations
       </h2>
